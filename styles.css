@@ -1,0 +1,74 @@
+body {
+  background-color: #110C3B;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  color: #FA9200;
+  font-family: 'Heebo', sans-serif;
+  font-size: 2em;
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  margin: none;
+}
+
+.imagen {
+  display: flex;
+  justify-content: center;
+  margin: 4em auto 0 auto;
+}
+
+.container-boton {
+  display: flex;
+  justify-content: center;
+}
+
+.descripcion {
+  display: flex;
+  justify-content: center;
+}
+
+#descr {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 1em auto 0 auto;
+  color: #E5EBE2;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  margin: 2em auto 0 auto;
+}
+
+.btn {
+  font-family: 'Heebo', sans-serif;
+  font-size: 2em;
+  background-color: lightgrey;
+  border: 4.5px solid #004023;
+  border-radius: 4px;
+  color: green;
+  padding: 0.2em 0.7em;
+  font-weight: normal;
+  transition: color 0.2s, padding 0.2s, background-color 0.2s, font-size 0.5s, font-weight 0s;
+}
+
+.btn:hover {
+  color: lightgreen;
+  padding: 0.3em 0.9em;
+  background-color: green;
+  font-size: 2.3em;
+  font-weight: 800;
+}
+
+.btn:disabled {
+  background-color: brown;
+  color: tomato;
+  padding: 0.2em 0.7em;
+  font-weight: normal;
+  font-size: 2em;
+  border: 4.5px solid black;
+  opacity: 0.2;
+}
